@@ -1,13 +1,11 @@
 {
   "name": "Lesson-WebPack",
   "version": "1.0.0",
-  "description": "",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production --config webpack.config.js",
     "start": "webpack --mode development --config webpack.config.js --watch"
-
   },
   "keywords": [],
   "author": "",
@@ -28,5 +26,14 @@
   },
   "dependencies": {
     "jquery": "^3.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Claceluck/Lesson-WebPack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Claceluck/Lesson-WebPack/issues"
+  },
+  "homepage": "https://github.com/Claceluck/Lesson-WebPack#readme",
+  "description": ""
 }
